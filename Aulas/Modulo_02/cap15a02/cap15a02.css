@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+body {
+    background-color: #c7c4f8;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+    color: #0D00FF;
+    background-color: #33324B;
+}
+
+h2 {
+    color: #027dc9;
+    background-color: #3B35A0;
+}
+
+h1#principal {
+    text-align: center;
+    background-color: #33324B;
+}
+
+.basico {
+    color: #c9022a;
+}
+
+.intermediario {
+    color: #c96202;
+}
+
+.avancado {
+    color: #0cc902;
+}
+
+
+/* em HTML é "id" =  em CSS é "#"
+   em HTML é "class" = em CSS é "."
+
+/* Não é preciso usar o nome do elemento HTML em CSS quando usando "id", exemplo: 
+
+"h1#principal" {} pode ser escrito também como "#principal", ou seja, apenas usando a # antes do nome do parâmetro/elemento.
+
+/* Em CSS não é possível usar a tag "id" mais do que uma vez por elemento. Ex.: 
+
+Dois elementos h1 no corpo de um código um deles já usa a id="main" (#main), neste caso o segundo elemento h1 não pode receber o "main".
+
+Para nomear 2 ou mais elementos com o mesmo nome é preciso usar "class". Exemplo::after
+
+(em HTML) <h1 class="main"></h1> ou (em CSS) .main
+<p>lorem</p>
+<p>lorem</p>
+(em HTML) <h1 class="main"></h1> ou (em CSS) .main

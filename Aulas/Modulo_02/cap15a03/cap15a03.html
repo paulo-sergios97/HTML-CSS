@@ -1,0 +1,72 @@
+<!-- Cap 15 Aula 03 Pseudo Classes -->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-classes</title>
+
+    <style>
+        
+        div {
+            display: inline-block;
+            background-color: rgba(142, 137, 137, 0.978);
+            text-align: center;
+            border: 10px solid rgb(26, 4, 121);
+            height: 200px;
+            width: 200px;
+        }
+
+        div:hover {
+            background-color: rgb(45, 206, 20);
+        }
+
+    </style>
+
+
+</head>
+<body>
+
+    <h1>Exemplo div</h1>
+
+    <div id="d1">01</div>
+    <div id="d2">02</div>
+    <div id="d3">03</div>
+
+<!--desabilitar comentário acima para exibir conteúdo no chrome-->
+
+    <style>
+
+        div {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        div > p {
+            display: none;
+        }
+        div:hover > p {
+            display: block;
+            color: white;
+            background-color: red;
+        }
+        div:hover {
+            color: red;
+        }
+
+
+    </style>
+
+    <h1>Exemplo de hover</h1>
+    <p>Passe o mouse sobre o texto abaixo</p>
+    <div>Passe o mouse aqui
+        <p>TEXTO ESCONDIDO...</p>
+    </div>
+    <p>Fim do exemplo</p>
+
+<!-- O exeplo acima é o exemplo de protótipo de menu expansivo (dropbox). -->
+
+</body>
+</html>
+
+revisar esse conteúdo antes de avançar para a próxima aula

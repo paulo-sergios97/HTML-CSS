@@ -1,0 +1,33 @@
+<!--Cap 11 Aula 03 Áudio em HTML5-->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1><b>Reproduzindo Áudio</b></h1>
+    <hr>
+    <p>Vamos aprender a reproduzir áudios em HTML5</p>
+    <audio src="midias/dont-talk-315229.mp3" controls autoplay></audio>
+
+</body>
+</html>
+
+<!-- Observações
+
+O parâmetro 'autoplay' permite que o arquivo de áudio seja executado automaticamente na página web. O mesmo pode não funcionar em alguns navegadores, Chrome por exemplo.
+
+O parâmetro 'controls' permite exibir o controle de reprodução do áudio.
+
+Formatos de áudio mais comuns usados em sites: MP3, WAV e OGG.
+
+O parâmetro 'preload' pode ser usado nas seguintes funções:
+- metadata: para exibir informações do arquivo antes de o mesmo ser baixado para reprodução. E o áudio só começa a ser baixado depois de apertar play.
+- auto: só vai considerar que o site está carregado por completo depois que o arquivo de áudio estiver baixado (em cache) para reprodução.
+- none: não cerraga o áudio a menos que o usuário pressione o play no controle de áudio.
+
+O parâmetro 'loop' toca o áudio em repetição, ou seja, a reprodução recomeça depois de encerrada.
+-->

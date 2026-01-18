@@ -1,0 +1,24 @@
+<!--Cap 11 Aula 01 Imagens Dinâmicas-->
+<!--Cap 11 Aula 02 Elemento Picture-->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagens dinâmicas:</h1>
+    <hr>
+    <p>Tente abrir este site em vários dispositivos diferentes ou simplemente aumente e diminua o tamanho do seu navegador.</p>
+
+
+    <picture>
+        <source media="(max-width:750px)" srcset="imagens/imagen-p.png" type="image/png">
+        <source media="(max-width:1050px)" srcset="imagens/imagen-m.png" type="image/png">
+        <img src="imagens/imagen-g.png" alt="Imagen flexível">
+    </picture>
+</body>
+</html>
+

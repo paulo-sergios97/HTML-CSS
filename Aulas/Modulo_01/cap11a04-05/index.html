@@ -1,0 +1,37 @@
+<!--Cap 11 Aula 04 Vídeos em HTML5 (conversão de vídeos)-->
+<!--Cap 11 Aula 05 Vídeos em hospedagem própria-->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>vídeos com HTML5</title>
+</head>
+
+<body>
+    <h1>Inserindo vídeos hospedados localmente.</h1>
+    <p>Este vídeo está hospedado no meu próprio servidor.</p>
+
+    <video src="videos/13241691_1080_720_24fps.mp4" widht="500" height="500" autoplay loop></video>
+
+    <video width="400" height="400" poster="imagens/o-que-fazer-em-Tokyo-1.webp" controls>
+        <source src="videos/13241691_1080_720_24fps.mp4" type="video/mp4">
+
+        <p>Seu navegador não tem compatibilidade com a reprodução de vídeos nesse formato.</p>
+    </video>
+
+</body>
+
+</html>
+
+<!-- Formatos de arquivo de vídeo mais usados: mp4;m4v;webm;ogv ou ogg. -->
+
+<!-- Programa para conversão de vídeos: HandBrake-->
+
+<!-- Nos exemplos acima as mídias são incorporadas ao site, por meio do código, de algumas maneiras diferentes: a primeira é a maneira comum, com apenas 1 formato do arquivo. A segunda permite usar diversos formatos para que algum deles seja compatível com o navegador de internet em uso pelo usuário. Ou seja, é criada uma lista do mesmo arquivo em formatos diferentes para garantir que a engine do navegador seja capaz de ler e executar o arquivo em algum dos formatos disponíveis. -->
+
+<!-- O parâmetro 'poster' é usado para acrescentar uma thumb ao vídeo.-->
+
+<!-- A hospedagem local de vídeos é muito custosa pois gera muito trafego de dados.-->

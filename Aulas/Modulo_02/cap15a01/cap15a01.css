@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgb(92, 237, 107);
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+    color: rgb(40, 9, 195);
+}
+
+h2 {
+    color: rgb(115, 18, 18);
+}
+
+h1#principal {
+    text-align: center;
+}
+
+
+/* em HTML é "id" =  em CSS é "#"
+   em HTML é "class" = em CSS é "."
+
+/* Não é preciso usar o nome do elemento HTML em CSS quando usando "id", exemplo: 
+
+"h1#principal" {} pode ser escrito também como "#principal", ou seja, apenas usando a # antes do nome do parâmetro/elemento.
+
