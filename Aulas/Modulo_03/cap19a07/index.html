@@ -7,6 +7,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alinhamento Vertical</title>
     <style>
+        #container {
+            background-image: url("imagens/target001.png");
+            background-size: 100% 100%;
+
+            position: relative;
+            height: 90vh;
+            padding: 20px;
+            background-color: purple;
+        }
+
+        #conteudo {
+            background-image: url("imagens/target001.png");
+            background-size: 100% 100%;
+
+            position: absolute;
+            height: 200px;
+            width: 400px;
+            background-color: yellow;
+
+            left: 50%;
+            top: 50%;
+
+            transform: translate(-50%, -50%);
+        }
+
 
     </style>
 </head>
@@ -18,3 +43,23 @@
     </section>
 </body>
 </html>
+
+
+<!--
+* Todo posicionamento de box em HTML é relativo. Por isso, usar a propriedade 'position: relative;' pode ser uma redundância.
+Nesse caso a propriedade é usada para o elemento que contém outro elemento, ou seja, a caixa pai.
+A propriedade 'position: absolute;' é usada para o elemento contido pela caixa pai. 
+Ao usar o valor 'absolute;' na propriedade 'position: ' permite declarar outras propriedades que alteram a posição da caixa no viewport: left, right, top, bottom.
+
+* O valor 'left' designa a distancia desde a margem esquerda da caixa pai até o centro;
+  O valor 'top' designa a distancia desda a margem superior da caixa pai até o centro;
+  Etc;
+  Etc;
+
+* 'margin: auto;' para posicionamento do box na horizontal, centralizando o elemento no viewport.
+
+* 'vh' significa 'viewport height'.
+
+* 'transform: translate ()', usando valores negativos (-50%) ou positivos (+50%) para mover elementos dentro da caixa.
+
+-->
