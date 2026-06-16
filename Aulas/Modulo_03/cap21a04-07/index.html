@@ -1,0 +1,224 @@
+<!-- Cap 21 
+ 
+    Aula 04 Aprendendo a trabalhar com tabelas grandes 
+    
+    Aula 05 Caption e Escopo de títulos em tabelas
+
+    Aula 06 Efeito zebrado na tabela com HTML5 e CSS3
+
+    Aula 07 Cabeçalho fixo em tabelas grandes    -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <link rel="stylesheet" href="index.css">
+
+</head>
+
+<body>
+    <h1>Uso de tabelas grandes</h1>
+
+    <table>
+
+        <caption>População das Unidades Federativas do Brasil</caption>
+
+        <thead>
+            <tr>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width: 50px;">População</th>
+            </tr>
+        </thead>
+
+
+        <tbody>
+            <tr>
+                <td>ACRE</td>
+                <td class="numero">830 018</td>
+            </tr>
+
+            <tr>
+                <td>ALAGOAS</td>
+                <td class="numero">3 127 683</td>
+            </tr>
+
+            <tr>
+                <td>AMAPÁ</td>
+                <td class="numero">733 759</td>
+            </tr>
+
+            <tr>
+                <td>AMAZONAS</td>
+                <td class="numero">3 941 613</td>
+            </tr>
+
+            <tr>
+                <td>BAHIA</td>
+                <td class="numero">14 141 626</td>
+            </tr>
+
+            <tr>
+                <td>CEARÁ</td>
+                <td class="numero">8 794 957</td>
+            </tr>
+
+            <tr>
+                <td>DISTRITO FEDERAL</td>
+                <td class="numero">2 817 381</td>
+            </tr>
+
+            <tr>
+                <td>ESPÍRITO SANTO</td>
+                <td class="numero">3 833 712</td>
+            </tr>
+
+            <tr>
+                <td>GOIÁS</td>
+                <td class="numero">7 056 495</td>
+            </tr>
+
+            <tr>
+                <td>MARANHÃO</td>
+                <td class="numero">6 755 805</td>
+            </tr>
+
+            <tr>
+                <td>MATO GROSSO</td>
+                <td class="numero">3 658 649</td>
+            </tr>
+
+            <tr>
+                <td>MATO GROSSO DO SUL</td>
+                <td class="numero">2 757 013</td>
+            </tr>
+
+            <tr>
+                <td>MINAS GERAIS</td>
+                <td class="numero">20 539 989</td>
+            </tr>
+
+            <tr>
+                <td>PARÁ</td>
+                <td class="numero">8 121 025</td>
+            </tr>
+
+            <tr>
+                <td>PARAÍBA</td>
+                <td class="numero">3 974 687</td>
+            </tr>
+
+            <tr>
+                <td>PARANÁ</td>
+                <td class="numero">11 444 380</td>
+            </tr>
+
+            <tr>
+                <td>PERNAMBUCO</td>
+                <td class="numero">9 058 931</td>
+            </tr>
+
+            <tr>
+                <td>PIAUÍ</td>
+                <td class="numero">3 271 199</td>
+            </tr>
+
+            <tr>
+                <td>RIO DE JANEIRO</td>
+                <td class="numero">16 055 174</td>
+            </tr>
+
+            <tr>
+                <td>RIO GRANDE DO NORTE</td>
+                <td class="numero">3 302 729</td>
+            </tr>
+
+            <tr>
+                <td>RIO GRANDE DO SOL</td>
+                <td class="numero">11 882 965</td>
+            </tr>
+
+            <tr>
+                <td>RONDÔNIA</td>
+                <td class="numero">1 581 196</td>
+            </tr>
+
+            <tr>
+                <td>RORAIMA</td>
+                <td class="numero">636 707</td>
+            </tr>
+
+            <tr>
+                <td>SANTA CATARINA</td>
+                <td class="numero">7 610 361</td>
+            </tr>
+
+            <tr>
+                <td>SÃO PAULO</td>
+                <td class="numero">44 411 238</td>
+            </tr>
+
+            <tr>
+                <td>SERGIPE</td>
+                <td class="numero">2 210 004</td>
+            </tr>
+
+            <tr>
+                <td>TOCANTINS</td>
+                <td class="numero">1 511 460</td>
+            </tr>
+
+        </tbody>
+
+
+        <tfoot>
+            <tr>
+                <th scope="row">Total de Habitantes</th>
+                <td class="numero"><strong>210.147.15</strong></td>
+            </tr>
+        </tfoot>
+
+
+    </table>
+    <article>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic enim minima rerum repellat laudantium vitae accusamus eveniet, veniam dolor qui error exercitationem, sed modi sequi. Dicta optio nam alias exercitationem. Lorem ipsum dolor, sit amet consectetur adipisicing elit. <br> Provident, maxime cumque. Tenetur sapiente nulla, magnam minima minus voluptatum sed quaerat reiciendis accusantium dolorum voluptates, assumenda suscipit inventore dolor ducimus ut? Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus est ratione, eos maiores blanditiis molestias nesciunt nihil mollitia voluptate reiciendis aut debitis consectetur atque, fuga tempore, commodi nobis doloremque assumenda? <br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, quasi expedita? Nihil, reiciendis. <br> Quod cupiditate, explicabo quam labore ducimus dolores aut quos minus aliquid deserunt perspiciatis? Labore placeat facilis aut.</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic enim minima rerum repellat laudantium vitae accusamus eveniet, veniam dolor qui error exercitationem, sed modi sequi. <br> Dicta optio nam alias exercitationem. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident, maxime cumque. Tenetur sapiente nulla, magnam minima minus voluptatum sed quaerat reiciendis accusantium dolorum voluptates, assumenda suscipit inventore dolor ducimus ut? <br> Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Accusamus est ratione, eos maiores blanditiis molestias nesciunt nihil mollitia voluptate reiciendis aut debitis consectetur atque, fuga tempore, commodi nobis doloremque assumenda? Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Neque, quasi expedita? Nihil, reiciendis. Quod cupiditate, explicabo quam labore ducimus dolores aut quos minus aliquid deserunt perspiciatis? Labore placeat facilis aut.</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic enim minima rerum repellat laudantium vitae accusamus eveniet, veniam dolor qui error exercitationem, sed modi sequi. <br>Dicta optio nam alias exercitationem. <br>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident, maxime cumque. Tenetur sapiente nulla, magnam minima minus voluptatum sed quaerat reiciendis accusantium dolorum voluptates, assumenda suscipit inventore dolor ducimus ut? <br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus est ratione, eos maiores blanditiis molestias nesciunt nihil mollitia voluptate reiciendis aut debitis consectetur atque, fuga tempore, commodi nobis doloremque assumenda? <br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, quasi expedita? Nihil, reiciendis. Quod cupiditate, explicabo quam labore ducimus dolores aut quos minus aliquid deserunt perspiciatis? Labore placeat facilis aut.</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic enim minima rerum repellat laudantium vitae accusamus eveniet, veniam dolor qui error exercitationem, sed modi sequi. Dicta optio nam alias exercitationem. <br> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident, maxime cumque. Tenetur sapiente nulla, magnam minima minus voluptatum sed quaerat reiciendis accusantium dolorum voluptates, assumenda suscipit inventore dolor ducimus ut? <br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus est ratione, eos maiores blanditiis molestias nesciunt nihil mollitia voluptate reiciendis aut debitis consectetur atque, fuga tempore, commodi nobis doloremque assumenda? <br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, quasi expedita? Nihil, reiciendis. Quod cupiditate, explicabo quam labore ducimus dolores aut quos minus aliquid deserunt perspiciatis? Labore placeat facilis aut.</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic enim minima rerum repellat laudantium vitae accusamus eveniet, veniam dolor qui error exercitationem, sed modi sequi. Dicta optio nam alias exercitationem. <br> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident, maxime cumque. Tenetur sapiente nulla, magnam minima minus voluptatum sed quaerat reiciendis accusantium dolorum voluptates, assumenda suscipit inventore dolor ducimus ut? <br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus est ratione, eos maiores blanditiis molestias nesciunt nihil mollitia voluptate reiciendis aut debitis consectetur atque, fuga tempore, commodi nobis doloremque assumenda? <br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, quasi expedita? Nihil, reiciendis. Quod cupiditate, explicabo quam labore ducimus dolores aut quos minus aliquid deserunt perspiciatis? Labore placeat facilis aut.</p>
+    </article>
+</body>
+
+</html>
+
+
+<!--
+
+ESCOPO DAS TABELAS:
+ -th: titulos ou coisas que não sejam dados
+ -td: tudo que for um dado dentro da tabela
+
+
+Tag semântica: <strong> para ressaltar o texto ou palavra como 'importante'
+
+scope="col": classe relativa a coluna na qual estão os dados, tag apenas semantica
+
+scope="row": classe relativa a linha que detém um dado, tag apenas semantica
+
+EFEITO ZEBRADO:
+
+usa-se a pseudo classe ":nth-child()", cujos valores podem ser 'odd'(impar), 'even'(par), ou 'numero+n' (2n; 3n; 4n; 2n-1; 3n-1;) e também é possível usar outros valores de estilo como "text-decoration: underline" e "font-weight: bold";
+
+CABEÇALHO FIXO EM TABELAS GRADES:
+
+-obs.: o recurso funciona bem no Chrome mas pode não funciocar em outros navegadores, como Safari.
+
+a tabela precisa ter o valor "position: relative", que é apenas uma configuração comportamental, não causa alteração estética no site
+
+o cabeçalho deve ter os valores "position: sticky" e "top: 0" além de "background-color: "
+
+
+
+-->

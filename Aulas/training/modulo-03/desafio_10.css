@@ -1,0 +1,123 @@
+@charset "UTF-8";
+
+
+
+html, body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cabecalho{
+    background-color: rgb(204, 38, 38);
+    color: white;
+    margin: -10px;
+    padding: 15px;
+    text-align: center;
+    font-weight: lighter;
+}
+
+header > h1 {
+    margin: 20px;
+    margin-top: 50px;
+    font-weight: bolder;
+    text-align: left;
+}
+
+header > h2 {
+    margin: 20px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    font-weight: lighter;
+    color: rgb(95, 92, 92);
+    text-align: left;
+}
+
+header > p, a {
+    text-decoration: none;
+    color: rgb(60, 58, 58);
+    margin-left: 20px;
+    text-align: left;
+}
+
+
+.imagem {
+    height: 500px;
+    width: 100vw;
+    margin: -10px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    color: transparent;
+    background-attachment: fixed;
+    position: relative;
+    
+}
+
+#img01 {
+    background-image: url(imagens/8ba355bf-4f34-42a8-b3f0-1dddc5e7380c.jpg);
+    background-size: 150vh;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+section {
+    font-size: 1.1em;
+    text-align: left;
+    margin: 20px;
+}
+
+.caixa {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 15px;
+}
+
+mark {
+    background-color: rgba(240, 128, 128, 0.414);
+}
+
+#realce {
+    color: rgb(177, 6, 6);
+}
+
+#censo {
+    margin-top: 35px;
+    margin-bottom: 35px;
+    text-align: center;
+}
+
+caption {
+    font-weight: bold;
+    margin: 20px;
+}
+
+table {
+    height: 450px;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+th {
+    background-color: grey;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: lightgrey;
+}
+
+footer {
+    background-color: rgb(204, 38, 38);
+    margin: -15px;
+    height: 40px;
+    text-align: center;
+    color: white;
+    padding: 8px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}

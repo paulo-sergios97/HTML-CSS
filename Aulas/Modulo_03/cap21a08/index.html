@@ -1,0 +1,143 @@
+<!-- Cap 21 Aula 08 Mesclagem de células -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            width: 300px;
+            border-collapse: collapse;
+            position: relative;
+            margin: 5em;
+        }
+
+        td {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+       
+    </style>
+
+</head>
+
+<body>
+
+    <h1>MESCLAGEM DE CÉLULAS</h1>
+
+    <!--
+    <table>
+        <tr>
+            <td>A</td>
+            <td>B</td>
+            <td>C</td>
+        </tr>
+        <tr>
+            <td>D</td>
+            <td>F</td>
+            <td>G</td>
+        </tr>
+        <tr>
+            <td>H</td>
+            <td>I</td>
+            <td>J</td>
+        </tr>
+        <tr>
+            <td>K</td>
+            <td>L</td>
+            <td>M</td>
+        </tr>
+    </table> -->
+
+    <!-- Existem duas formas de mesclagem de células: expansão de linhas e expansão de colunas. Segue abaixo exemplo de expansão de colunas. -->
+
+    <table>
+
+        <tr>
+            <td>A</td>
+            <td colspan="2">B</td>
+            <!--<td>C</td>-->
+
+            <!-- Neste exeplo a célula C foi retitada, deixando um espaço em branco na tabela. Usando a propriedade de expansão de coluna faz-se com que a célula B ocupe 02 colunas, dessa forma preenchendo o espaço em branco deixado onde deveria haver a célula C, usando no parâmetro <td> B </td> a declaração 'colspan=' e quantidade de colunas almejada: 2. -->
+        </tr>
+
+        <tr>
+            <td>D</td>
+            <td>E</td>
+            <td>F</td>
+        </tr>
+        <tr>
+            <td>G</td>
+            <td>H</td>
+            <td>I</td>
+        </tr>
+        <tr>
+            <td>J</td>
+            <td>L</td>
+            <td>M</td>
+        </tr>
+    </table>
+
+
+    <!-- Já no caso do uso da propriedade rowspan, é feito com que uma célula ocupe mais do que 01 linha da tabela, a declaração é feita da mesma forma como com colunas: rowspan='' + a quantidade de linhas desejadas (03 neste exemplo).-->
+
+
+    <table>
+        <tr>
+            <td>A</td>
+            <td colspan="2">B</td>
+            <!--<td>C</td>-->
+        </tr>
+        <tr>
+            <td>D</td>
+            <td>E</td>
+            <td rowspan="3">F</td>
+        </tr>
+        <tr>
+            <!--<td>G</td>-->
+            <td>H</td>
+            <td>I</td>
+        </tr>
+        <tr>
+            <!--<td>J</td>-->
+            <td>L</td>
+            <td>M</td>
+        </tr>
+    </table>
+
+
+    <table>
+        <tr>
+            <td>A</td>
+            <td colspan="2">B</td>
+            <!--<td>C</td>-->
+        </tr>
+        <tr>
+            <td rowspan="3">D</td>
+            <td>E</td>
+            <td>F</td>
+        </tr>
+        <tr>
+            <!--<td>G</td>-->
+            <td>H</td>
+            <td>I</td>
+        </tr>
+        <tr>
+            <!--<td>J</td>-->
+            <td>L</td>
+            <td>M</td>
+        </tr>
+    </table>
+
+</body>
+
+</html>
